@@ -2,7 +2,7 @@
 FROM python:3.10
 
 # Set the working directory in the container
-WORKDIR /test4_sample
+WORKDIR /app
 
 # Install dependencies
 RUN pip install -r requirements.txt
