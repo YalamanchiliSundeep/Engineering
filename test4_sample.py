@@ -8,7 +8,7 @@ from docx import Document
 from docx.shared import RGBColor
 import os
 
-# Directly configure the API key
+# Directly configure the API key 
 genai.configure(api_key="AIzaSyC-TQYDcrWFFMeSy1EZ6_gse-gIdJMaotg")
 
 model = genai.GenerativeModel('gemini-1.5-flash')
