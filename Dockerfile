@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8080
 
 # Run the command to start the application when the container launches
-ENTRYPOINT ["streamlit", "run", "app.py", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "test4_sample.py", "--server.address=0.0.0.0"]
